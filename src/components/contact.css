@@ -1,0 +1,77 @@
+/* General styles for the contact section */
+.contact-section {
+    padding-top: 5rem; /* Equivalent to py-20 */
+    padding-bottom: 5rem;
+  }
+  
+  .contact-container {
+    max-width: 48rem; /* Equivalent to max-w-4xl */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .contact-heading {
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    font-weight: 700; /* Equivalent to font-bold */
+    text-align: center;
+    margin-bottom: 3rem; /* Equivalent to mb-12 */
+  }
+  
+  /* Styles for the form */
+  .contact-form {
+    display: grid;
+    grid-gap: 1.5rem; /* Equivalent to space-y-6 */
+  }
+  
+  .contact-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4a4a4a; /* Equivalent to text-gray-700 */
+    margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    width: 100%;
+    padding: 0.5rem 1rem; /* Equivalent to px-4 py-2 */
+    border: 1px solid #d1d5db; /* Equivalent to border-gray-300 */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-input:focus,
+  .contact-textarea:focus {
+    border-color: #3b82f6; /* Equivalent to focus:border-transparent with focus:ring-2 focus:ring-blue-500 */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3); /* Add blue ring around the input */
+  }
+  
+  /* Styles for the submit button */
+  .contact-submit-btn {
+    width: 100%;
+    padding: 0.75rem 1.25rem; /* Equivalent to py-3 */
+    background-color: #3b82f6; /* Equivalent to bg-blue-500 */
+    color: white;
+    font-weight: 600; /* Equivalent to font-semibold */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .contact-submit-btn:hover {
+    background-color: #2563eb; /* Equivalent to hover:bg-blue-600 */
+  }
+  
+  .contact-submit-btn.disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  /* Optional: Styles for input textarea */
+  .contact-textarea {
+    resize: vertical; /* Allows vertical resizing */
+  }
+  

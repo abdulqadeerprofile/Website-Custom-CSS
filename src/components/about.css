@@ -1,0 +1,51 @@
+/* General Styles for the About Section */
+.about-section {
+    padding: 5rem 0; /* Equivalent to py-20 in Tailwind */
+  }
+  
+  .about-container {
+    max-width: 1200px; /* Equivalent to max-w-6xl */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .about-heading {
+    font-size: 2rem; /* Equivalent to text-3xl */
+    font-weight: 700; /* Equivalent to font-bold */
+    text-align: center;
+    margin-bottom: 3rem; /* Equivalent to mb-12 */
+  }
+  
+  /* Grid layout for the image and text sections */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Equivalent to md:grid-cols-2 */
+    gap: 2rem; /* Equivalent to gap-8 */
+  }
+  
+  .about-image-container {
+    position: relative;
+    height: 400px; /* Equivalent to h-[400px] */
+  }
+  
+  .about-image {
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg */
+    object-fit: cover; /* Equivalent to object-cover */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about-paragraph {
+    color: #4a4a4a; /* Equivalent to text-gray-600 */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+  }
+  
